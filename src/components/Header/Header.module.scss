@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+    padding: 40px;
+
+    .header__logo {
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-right: 15px;
+        }
+
+        h2 {
+            margin: 0;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        p {
+            margin: 0;
+            font-size: 14px;
+        }
+    }
+
+    .header__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+
+        div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            cursor: pointer;
+            img {
+                margin-right: 10px;
+            }
+
+            p {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                color: #5c5c5c;
+            }
+        }
+    }
+}
