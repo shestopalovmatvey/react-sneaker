@@ -1,0 +1,15 @@
+.card__btn {
+    border: 0;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    img {
+        width: 32px;
+        height: 32px;
+    }
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+}

@@ -1,4 +1,5 @@
 .card {
+    position: relative;
     width: 210px;
     padding: 29px;
     background: #ffffff;
@@ -10,7 +11,7 @@
         box-shadow: 0 14px 30px rgba(0, 0, 0, 0.05);
     }
 
-    img {
+    .card__img {
         width: 133px;
         height: 112px;
     }
@@ -33,21 +34,6 @@
             p {
                 margin: 0;
                 margin-bottom: 2px;
-            }
-        }
-
-        .card__btn {
-            border: 0;
-            background-color: white;
-            border-radius: 8px;
-            cursor: pointer;
-            img {
-                width: 32px;
-                height: 32px;
-            }
-            &:active {
-                position: relative;
-                top: 1px;
             }
         }
     }
