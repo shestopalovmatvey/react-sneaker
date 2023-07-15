@@ -60,7 +60,7 @@ export default function Drawer() {
           className={classes.cart__logo}
           onClick={() => setOpenDrawer((prev) => !prev)}
         >
-          <img width={18} height={18} src="/img/Cart.svg" alt="cart"></img>
+          <img width={18} height={18} src="img/Cart.svg" alt="cart"></img>
           <p>{finalPrice} руб.</p>
         </div>
       )}

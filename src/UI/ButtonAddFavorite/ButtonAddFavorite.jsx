@@ -6,9 +6,9 @@ export default function ButtonAddFavorite({ isFavorite, handlerIsFavorite }) {
   return (
     <div className={classes.img__like} onClick={handlerIsFavorite}>
       {isFavorite ? (
-        <img src="./img/like.svg" alt=""></img>
+        <img src="img/like.svg" alt=""></img>
       ) : (
-        <img src="./img/unlike.png" alt=""></img>
+        <img src="img/unlike.png" alt=""></img>
       )}
     </div>
   );

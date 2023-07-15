@@ -22,7 +22,7 @@ export default function Card({ ...props }) {
           dispatch(favoritesAction.toggleToFavorites({ ...props }))
         }
       />
-      <img className={clasess.card__img} src={props.imageUrl} alt="cart"></img>
+      <img className={clasess.card__img} src={props.imageUrl} alt="card"></img>
       <h5>{props.title}</h5>
       <div className={clasess.card__footer}>
         <div className={clasess.card__price}>

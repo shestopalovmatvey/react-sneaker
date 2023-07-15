@@ -12,7 +12,7 @@ export default function Favorites({
     <div className="content">
       <div className="content__header__favorites">
         <Link to={"/"}>
-          <img width={32} height={32} src="./img/btn-back.svg" alt="Назад" />
+          <img width={32} height={32} src="img/btn-back.svg" alt="Назад" />
         </Link>
         <h1>Мои закладки</h1>
       </div>
